@@ -1,0 +1,150 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(bg.jpg);
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    margin-top: 75px;
+    
+}
+ h1{
+     margin-top: 50px;
+    position: relative;
+    text-align: center;
+    font-size: 50px;
+   
+
+} 
+ p{
+font-size: 25px;
+font-weight: 500;
+    margin-top: 50px;
+}
+.cont{
+    position: relative;
+    width: 1400px;
+    height: 500px;
+margin: 100px auto;
+
+
+}
+
+.cont .box{
+    position: relative;
+    width: calc(600px - 100px);
+    height: calc(500px - 20px);
+    background:darkred;
+    float: left;
+    margin: 65px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+    text-align: center;
+}
+.cont .box h1{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background: dimgray;
+    transition: 0.5s;
+    z-index: 1;
+    
+}
+
+.cont .box:hover .ic h1{
+    top: 40px;
+    left: calc(50% - 40px);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.cont .box .ic h1{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    font-size: 40px;
+    transition: 0.5s;
+    color:black;
+    
+}
+
+
+.cont .box .con{
+    position: relative;
+    top: 300%;
+    height: calc(100% - 100px);
+    transition: 0.5s;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    opacity: 0;
+}
+.cont .box:hover .con{
+    top: 300px;
+    opacity: 1;
+
+}
+.cont .box .con h3{
+    margin: 0 0 10px;
+    padding: 0;
+    color: black;
+    font-size: 20px;
+    
+}
+.cont .box .con p{
+    margin: 0;
+    padding: 0;
+    color: black;
+    
+}
+
+.cont .box .com{
+    position: relative;
+    top: 250%;
+    height: calc(100% - 100px);
+    transition: 0.5s;
+    opacity: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+
+.cont .box:hover .com{
+top: 250px;
+opacity: 1;
+}
+.cont .box .com h2{
+    margin: 0 0 10px;
+    padding: 0;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    font-size: 20px;
+    
+    
+}
+.cont .box .com .btn {
+    background-color: darkslateblue; 
+    border: none;
+    color: white;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+     margin-bottom: 50px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .cont .box:nth-child(1) .ic h1 {
+      background-image: url(free.jpg);
+      
+  }
+  .cont .box:nth-child(2) .ic h1 {
+      background-image: url(paid.jpg);
+  }
