@@ -104,6 +104,20 @@ margin: 100px auto;
     
 }
 
+.cont .box .con .btn {
+    background-color: darkslateblue; 
+    border: none;
+    color: white;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+     margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+
 .cont .box .com{
     position: relative;
     top: 250%;
@@ -140,6 +154,7 @@ opacity: 1;
      margin-bottom: 50px;
     font-size: 16px;
     cursor: pointer;
+    border-radius: 10px;
   }
   .cont .box:nth-child(1) .ic h1 {
       background-image: url(free.jpg);
